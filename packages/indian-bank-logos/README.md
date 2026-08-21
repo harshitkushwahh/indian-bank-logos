@@ -39,7 +39,7 @@ getLogoUrl("axis-bank");
 
 ## Live API
 
-Replace the base URL with your Vercel deployment after deploy.
+Base URL: **https://indian-bank-logos.vercel.app**
 
 | Endpoint | Description |
 |---|---|
@@ -50,17 +50,21 @@ Replace the base URL with your Vercel deployment after deploy.
 | `GET /logos/axis-bank.png` | Standard logo |
 | `GET /logos/axis-bank-horizontal.png` | Horizontal logo |
 
+Docs & live explorer: [indian-bank-logos.vercel.app](https://indian-bank-logos.vercel.app)
+
 ### Categories
 
 `nationalised` · `private` · `sfb` · `payments` · `lab` · `foreign`
 
 ## Custom base URL
 
+Default is `https://indian-bank-logos.vercel.app`. Override if needed:
+
 ```typescript
 import { setBaseUrl, getLogoUrl } from "indian-bank-logos";
 
-setBaseUrl("https://your-app.vercel.app");
-getLogoUrl("sbi"); // uses your deployment
+setBaseUrl("https://indian-bank-logos.vercel.app");
+getLogoUrl("state-bank-of-india");
 ```
 
 ## Offline vs live

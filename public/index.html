@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indian Bank Logos — Free CDN & API</title>
+  <meta name="description" content="Free CDN and API for 96 RBI scheduled commercial bank logos in India. Search, filter by category, use in any frontend." />
+  <link rel="icon" href="/logos/state-bank-of-india.png" />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4f;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-dim: #2563eb;
+      --green: #22c55e;
+      --radius: 12px;
+      --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --mono: ui-monospace, "Cascadia Code", "SF Mono", monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+    header { padding: 3rem 0 2rem; border-bottom: 1px solid var(--border); }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 0.5rem; max-width: 36rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .badge { background: var(--surface); border: 1px solid var(--border); padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.8rem; color: var(--muted); }
+    .badge strong { color: var(--green); }
+    section { padding: 2.5rem 0; border-bottom: 1px solid var(--border); }
+    section h2 { font-size: 1.25rem; margin-bottom: 1rem; }
+    section h3 { font-size: 0.95rem; color: var(--muted); margin: 1.25rem 0 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    pre, code { font-family: var(--mono); font-size: 0.85rem; }
+    pre { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; overflow-x: auto; margin: 0.75rem 0; }
+    code { background: var(--surface); padding: 0.15rem 0.4rem; border-radius: 4px; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+    .controls { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; }
+    input, select, button {
+      font-family: var(--font); font-size: 0.9rem; padding: 0.55rem 0.85rem;
+      border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);
+    }
+    input { flex: 1; min-width: 180px; }
+    button { background: var(--accent); border-color: var(--accent-dim); color: #fff; cursor: pointer; font-weight: 600; }
+    button:hover { background: var(--accent-dim); }
+    button.secondary { background: var(--surface); color: var(--text); border-color: var(--border); }
+    .bank-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.75rem; margin-top: 1rem; max-height: 420px; overflow-y: auto; }
+    .bank-item {
+      background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+      padding: 0.75rem; text-align: center; transition: border-color 0.15s;
+    }
+    .bank-item:hover { border-color: var(--accent); }
+    .bank-item img { width: 48px; height: 48px; object-fit: contain; margin-bottom: 0.5rem; }
+    .bank-item .name { font-size: 0.7rem; color: var(--muted); line-height: 1.3; }
+    .bank-item .slug { font-size: 0.65rem; font-family: var(--mono); color: var(--accent); margin-top: 0.25rem; word-break: break-all; }
+    #api-output { min-height: 120px; max-height: 280px; overflow: auto; white-space: pre-wrap; word-break: break-word; }
+    .endpoint { display: flex; align-items: center; gap: 0.5rem; margin: 0.4rem 0; flex-wrap: wrap; }
+    .method { background: var(--green); color: #000; font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 4px; font-family: var(--mono); }
+    footer { padding: 2rem 0; color: var(--muted); font-size: 0.85rem; text-align: center; }
+    .logo-preview { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin: 1rem 0; }
+    .logo-preview figure { text-align: center; }
+    .logo-preview img { background: #fff; border-radius: 8px; padding: 8px; }
+    .logo-preview figcaption { font-size: 0.75rem; color: var(--muted); margin-top: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Indian Bank Logos</h1>
+      <p>Free CDN &amp; JSON API for <strong>96 RBI scheduled commercial banks</strong>. Standard and horizontal PNG logos — use in any frontend, no auth required.</p>
+      <div class="badges">
+        <span class="badge"><strong>96</strong> banks</span>
+        <span class="badge"><strong>192</strong> PNG logos</span>
+        <span class="badge">CDN + REST API</span>
+        <span class="badge">npm: <code>indian-bank-logos</code></span>
+      </div>
+      <p style="margin-top:1rem;font-size:0.85rem;color:var(--muted)">
+        By <a href="https://github.com/harshitkushwahh">@harshitkushwahh</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Base URL</h2>
+      <pre id="base-url">https://indian-bank-logos.vercel.app</pre>
+    </section>
+
+    <section>
+      <h2>Logo CDN</h2>
+      <div class="logo-preview">
+        <figure>
+          <img src="/logos/hdfc-bank.png" alt="HDFC" width="64" height="64" />
+          <figcaption>Standard</figcaption>
+        </figure>
+        <figure>
+          <img src="/logos/hdfc-bank-horizontal.png" alt="HDFC horizontal" height="48" style="max-width:160px" />
+          <figcaption>Horizontal</figcaption>
+        </figure>
+      </div>
+      <pre>/logos/{slug}.png
+/logos/{slug}-horizontal.png</pre>
+      <pre>https://indian-bank-logos.vercel.app/logos/hdfc-bank.png
+https://indian-bank-logos.vercel.app/logos/hdfc-bank-horizontal.png</pre>
+    </section>
+
+    <section>
+      <h2>API Endpoints</h2>
+      <div class="endpoint"><span class="method">GET</span> <code>/api/banks</code> — list all banks</div>
+      <div class="endpoint"><span class="method">GET</span> <code>/api/banks?q=hdfc</code> — search by name or slug</div>
+      <div class="endpoint"><span class="method">GET</span> <code>/api/banks?category=private</code> — filter by category</div>
+      <div class="endpoint"><span class="method">GET</span> <code>/api/banks/hdfc-bank</code> — single bank</div>
+
+      <h3>Categories</h3>
+      <table>
+        <thead><tr><th>Value</th><th>Count</th></tr></thead>
+        <tbody>
+          <tr><td><code>nationalised</code></td><td>12</td></tr>
+          <tr><td><code>private</code></td><td>21</td></tr>
+          <tr><td><code>sfb</code></td><td>11</td></tr>
+          <tr><td><code>payments</code></td><td>6</td></tr>
+          <tr><td><code>lab</code></td><td>2</td></tr>
+          <tr><td><code>foreign</code></td><td>44</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Live API Explorer</h2>
+      <div class="controls">
+        <input type="search" id="search" placeholder="Search banks (e.g. hdfc, punjab)..." />
+        <select id="category">
+          <option value="">All categories</option>
+          <option value="nationalised">Nationalised</option>
+          <option value="private">Private</option>
+          <option value="sfb">Small Finance</option>
+          <option value="payments">Payments</option>
+          <option value="lab">Local Area</option>
+          <option value="foreign">Foreign</option>
+        </select>
+        <button type="button" id="fetch-btn">Fetch API</button>
+        <button type="button" class="secondary" id="sample-btn">Sample: HDFC</button>
+      </div>
+      <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.5rem" id="request-url"></p>
+      <pre id="api-output">Click "Fetch API" to load banks…</pre>
+      <div class="bank-grid" id="bank-grid"></div>
+    </section>
+
+    <section>
+      <h2>npm Package</h2>
+      <pre>npm install indian-bank-logos</pre>
+      <pre>import { searchBanks, getLogoUrl, getBanksByCategory } from "indian-bank-logos";
+
+searchBanks("axis");
+getBanksByCategory("nationalised");
+getLogoUrl("hdfc-bank");
+// => https://indian-bank-logos.vercel.app/logos/hdfc-bank.png</pre>
+    </section>
+
+    <section>
+      <h2>Example Response</h2>
+      <pre>{
+  "version": "1.0.0",
+  "count": 1,
+  "total": 1,
+  "banks": [{
+    "slug": "hdfc-bank",
+    "name": "HDFC Bank Limited",
+    "category": "private",
+    "logo": "https://indian-bank-logos.vercel.app/logos/hdfc-bank.png",
+    "logoHorizontal": "https://indian-bank-logos.vercel.app/logos/hdfc-bank-horizontal.png"
+  }]
+}</pre>
+    </section>
+
+    <footer>
+      Logos are trademarks of their respective owners. For identification/UI use only.<br />
+      Not affiliated with RBI or any bank. · MIT (code)
+    </footer>
+  </div>
+
+  <script>
+    const BASE = location.origin;
+
+    function buildUrl(q, category) {
+      const params = new URLSearchParams();
+      if (q) params.set("q", q);
+      if (category) params.set("category", category);
+      params.set("limit", "24");
+      const qs = params.toString();
+      return `${BASE}/api/banks${qs ? "?" + qs : ""}`;
+    }
+
+    function renderBanks(banks) {
+      const grid = document.getElementById("bank-grid");
+      grid.innerHTML = banks.map(b => `
+        <div class="bank-item" title="${b.name}">
+          <img src="${b.logo}" alt="${b.name}" loading="lazy" />
+          <div class="name">${b.name}</div>
+          <div class="slug">${b.slug}</div>
+        </div>
+      `).join("");
+    }
+
+    async function fetchBanks(q, category) {
+      const url = buildUrl(q, category);
+      document.getElementById("request-url").textContent = "GET " + url;
+      document.getElementById("api-output").textContent = "Loading…";
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        document.getElementById("api-output").textContent = JSON.stringify(data, null, 2);
+        renderBanks(data.banks || []);
+      } catch (e) {
+        document.getElementById("api-output").textContent = "Error: " + e.message;
+      }
+    }
+
+    document.getElementById("fetch-btn").addEventListener("click", () => {
+      fetchBanks(
+        document.getElementById("search").value.trim(),
+        document.getElementById("category").value
+      );
+    });
+
+    document.getElementById("sample-btn").addEventListener("click", async () => {
+      const url = `${BASE}/api/banks/hdfc-bank`;
+      document.getElementById("request-url").textContent = "GET " + url;
+      document.getElementById("search").value = "";
+      document.getElementById("category").value = "";
+      const res = await fetch(url);
+      const data = await res.json();
+      document.getElementById("api-output").textContent = JSON.stringify(data, null, 2);
+      renderBanks([data]);
+    });
+
+    fetchBanks("", "");
+  </script>
+</body>
+</html>

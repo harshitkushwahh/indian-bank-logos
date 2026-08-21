@@ -2,9 +2,8 @@
 
 Free CDN and API for **96 RBI scheduled commercial bank** logos in India, plus an [npm package](./packages/indian-bank-logos) for search and category filters.
 
+**Live site:** [https://indian-bank-logos.vercel.app](https://indian-bank-logos.vercel.app)  
 **Author:** [@harshitkushwahh](https://github.com/harshitkushwahh)
-
-Deploy on [Vercel](https://vercel.com) · Use in any frontend · No auth required
 
 ## Logo URLs
 
@@ -13,22 +12,22 @@ Deploy on [Vercel](https://vercel.com) · Use in any frontend · No auth require
 | **Standard** | `/logos/{slug}.png` | Favicon, list icons, avatars |
 | **Horizontal** | `/logos/{slug}-horizontal.png` | Headers, banners, wide layouts |
 
-Example:
-
 ```
-https://your-app.vercel.app/logos/hdfc-bank.png
-https://your-app.vercel.app/logos/hdfc-bank-horizontal.png
+https://indian-bank-logos.vercel.app/logos/hdfc-bank.png
+https://indian-bank-logos.vercel.app/logos/hdfc-bank-horizontal.png
 ```
 
 ## API
 
+Base URL: `https://indian-bank-logos.vercel.app`
+
 ### List / search / filter
 
 ```
-GET /api/banks
-GET /api/banks?q=hdfc
-GET /api/banks?category=private
-GET /api/banks?q=bank&category=private&limit=10&offset=0
+GET https://indian-bank-logos.vercel.app/api/banks
+GET https://indian-bank-logos.vercel.app/api/banks?q=hdfc
+GET https://indian-bank-logos.vercel.app/api/banks?category=private
+GET https://indian-bank-logos.vercel.app/api/banks?q=bank&category=private&limit=10&offset=0
 ```
 
 Response:
@@ -45,8 +44,8 @@ Response:
       "slug": "hdfc-bank",
       "name": "HDFC Bank Limited",
       "category": "private",
-      "logo": "https://your-app.vercel.app/logos/hdfc-bank.png",
-      "logoHorizontal": "https://your-app.vercel.app/logos/hdfc-bank-horizontal.png"
+      "logo": "https://indian-bank-logos.vercel.app/logos/hdfc-bank.png",
+      "logoHorizontal": "https://indian-bank-logos.vercel.app/logos/hdfc-bank-horizontal.png"
     }
   ]
 }
@@ -55,7 +54,7 @@ Response:
 ### Single bank
 
 ```
-GET /api/banks/hdfc-bank
+GET https://indian-bank-logos.vercel.app/api/banks/hdfc-bank
 ```
 
 ### Categories
@@ -81,24 +80,22 @@ import { searchBanks, getLogoUrl, getBanksByCategory } from "indian-bank-logos";
 searchBanks("axis");
 getBanksByCategory("nationalised");
 getLogoUrl("state-bank-of-india");
+// => https://indian-bank-logos.vercel.app/logos/state-bank-of-india.png
 ```
 
 See [packages/indian-bank-logos/README.md](./packages/indian-bank-logos/README.md).
 
 ## Deploy to Vercel
 
-1. Push this repo to GitHub
-2. [vercel.com/new](https://vercel.com/new) → Import repository
-3. Framework preset: **Other**
-4. Deploy
+Already deployed at [indian-bank-logos.vercel.app](https://indian-bank-logos.vercel.app).
 
-Optional env var:
+To redeploy after changes: push to GitHub — Vercel auto-deploys.
+
+Optional env var (defaults to production URL):
 
 ```
-BANK_LOGOS_BASE_URL=https://your-app.vercel.app
+BANK_LOGOS_BASE_URL=https://indian-bank-logos.vercel.app
 ```
-
-Set the same URL in your frontend via `setBaseUrl()` from the npm package.
 
 ## Publish to npm
 
@@ -112,11 +109,13 @@ npm publish --access public
 
 ```
 indian-bank-logos/
-├── public/logos/          # PNG files (CDN)
-├── data/banks.json        # Manifest
+├── public/
+│   ├── index.html         # Docs & API explorer
+│   └── logos/             # PNG files (CDN)
+├── data/banks.json
 ├── api/                   # Vercel serverless routes
-├── packages/indian-bank-logos/  # npm client
-└── scripts/               # generate-manifest.js
+├── packages/indian-bank-logos/
+└── scripts/
 ```
 
 ## Adding logos
@@ -129,7 +128,7 @@ indian-bank-logos/
 
 Slugs are kebab-case stable IDs, e.g. `hdfc-bank`, `state-bank-of-india`, `airtel-payments-bank`.
 
-Full list: `data/banks.json` or `GET /api/banks`.
+Full list: [GET /api/banks](https://indian-bank-logos.vercel.app/api/banks) or `data/banks.json`.
 
 ## Roadmap
 

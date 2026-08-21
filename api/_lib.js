@@ -1,7 +1,8 @@
 const banks = require("../data/banks.json");
 
-const DEFAULT_BASE = process.env.BANK_LOGOS_BASE_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "");
+const PRODUCTION_URL = "https://indian-bank-logos.vercel.app";
+/** Always use the public CDN domain for logo URLs in API responses. */
+const DEFAULT_BASE = process.env.BANK_LOGOS_BASE_URL || PRODUCTION_URL;
 
 function withUrls(bank, base) {
   const root = base || DEFAULT_BASE;
