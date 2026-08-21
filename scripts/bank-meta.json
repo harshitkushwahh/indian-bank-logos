@@ -1,0 +1,386 @@
+{
+  "state-bank-of-india": {
+    "name": "State Bank of India",
+    "category": "nationalised"
+  },
+  "bank-of-baroda": {
+    "name": "Bank of Baroda",
+    "category": "nationalised"
+  },
+  "bank-of-india": {
+    "name": "Bank of India",
+    "category": "nationalised"
+  },
+  "bank-of-maharashtra": {
+    "name": "Bank of Maharashtra",
+    "category": "nationalised"
+  },
+  "canara-bank": {
+    "name": "Canara Bank",
+    "category": "nationalised"
+  },
+  "central-bank-of-india": {
+    "name": "Central Bank of India",
+    "category": "nationalised"
+  },
+  "indian-bank": {
+    "name": "Indian Bank",
+    "category": "nationalised"
+  },
+  "indian-overseas-bank": {
+    "name": "Indian Overseas Bank",
+    "category": "nationalised"
+  },
+  "punjab-and-sind-bank": {
+    "name": "Punjab & Sind Bank",
+    "category": "nationalised"
+  },
+  "punjab-national-bank": {
+    "name": "Punjab National Bank",
+    "category": "nationalised"
+  },
+  "uco-bank": {
+    "name": "UCO Bank",
+    "category": "nationalised"
+  },
+  "union-bank-of-india": {
+    "name": "Union Bank of India",
+    "category": "nationalised"
+  },
+  "axis-bank": {
+    "name": "Axis Bank Limited",
+    "category": "private"
+  },
+  "bandhan-bank": {
+    "name": "Bandhan Bank Limited",
+    "category": "private"
+  },
+  "csb-bank": {
+    "name": "CSB Bank Limited",
+    "category": "private"
+  },
+  "city-union-bank": {
+    "name": "City Union Bank Limited",
+    "category": "private"
+  },
+  "dcb-bank": {
+    "name": "DCB Bank Limited",
+    "category": "private"
+  },
+  "dhanlaxmi-bank": {
+    "name": "Dhanlaxmi Bank Limited",
+    "category": "private"
+  },
+  "federal-bank": {
+    "name": "Federal Bank Limited",
+    "category": "private"
+  },
+  "hdfc-bank": {
+    "name": "HDFC Bank Limited",
+    "category": "private"
+  },
+  "icici-bank": {
+    "name": "ICICI Bank Limited",
+    "category": "private"
+  },
+  "indusind-bank": {
+    "name": "IndusInd Bank Limited",
+    "category": "private"
+  },
+  "idfc-first-bank": {
+    "name": "IDFC FIRST Bank Limited",
+    "category": "private"
+  },
+  "jammu-and-kashmir-bank": {
+    "name": "Jammu & Kashmir Bank Limited",
+    "category": "private"
+  },
+  "karnataka-bank": {
+    "name": "Karnataka Bank Limited",
+    "category": "private"
+  },
+  "karur-vysya-bank": {
+    "name": "Karur Vysya Bank Limited",
+    "category": "private"
+  },
+  "kotak-mahindra-bank": {
+    "name": "Kotak Mahindra Bank Limited",
+    "category": "private"
+  },
+  "nainital-bank": {
+    "name": "Nainital Bank Limited",
+    "category": "private"
+  },
+  "rbl-bank": {
+    "name": "RBL Bank Limited",
+    "category": "private"
+  },
+  "south-indian-bank": {
+    "name": "South Indian Bank Limited",
+    "category": "private"
+  },
+  "tamilnad-mercantile-bank": {
+    "name": "Tamilnad Mercantile Bank Limited",
+    "category": "private"
+  },
+  "yes-bank": {
+    "name": "YES Bank Limited",
+    "category": "private"
+  },
+  "idbi-bank": {
+    "name": "IDBI Bank Limited",
+    "category": "private"
+  },
+  "coastal-local-area-bank": {
+    "name": "Coastal Local Area Bank Ltd.",
+    "category": "lab"
+  },
+  "krishna-bhima-samruddhi-lab": {
+    "name": "Krishna Bhima Samruddhi LAB Limited",
+    "category": "lab"
+  },
+  "au-small-finance-bank": {
+    "name": "Au Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "capital-small-finance-bank": {
+    "name": "Capital Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "equitas-small-finance-bank": {
+    "name": "Equitas Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "esaf-small-finance-bank": {
+    "name": "ESAF Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "suryoday-small-finance-bank": {
+    "name": "Suryoday Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "ujjivan-small-finance-bank": {
+    "name": "Ujjivan Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "utkarsh-small-finance-bank": {
+    "name": "Utkarsh Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "slice-small-finance-bank": {
+    "name": "slice Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "jana-small-finance-bank": {
+    "name": "Jana Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "shivalik-small-finance-bank": {
+    "name": "Shivalik Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "unity-small-finance-bank": {
+    "name": "Unity Small Finance Bank Limited",
+    "category": "sfb"
+  },
+  "india-post-payments-bank": {
+    "name": "India Post Payments Bank Limited",
+    "category": "payments"
+  },
+  "fino-payments-bank": {
+    "name": "Fino Payments Bank Limited",
+    "category": "payments"
+  },
+  "paytm-payments-bank": {
+    "name": "Paytm Payments Bank Limited",
+    "category": "payments"
+  },
+  "airtel-payments-bank": {
+    "name": "Airtel Payments Bank Limited",
+    "category": "payments"
+  },
+  "nsdl-payments-bank": {
+    "name": "NSDL Payments Bank Limited",
+    "category": "payments"
+  },
+  "jio-payments-bank": {
+    "name": "Jio Payments Bank Limited",
+    "category": "payments"
+  },
+  "ab-bank": {
+    "name": "AB Bank PLC",
+    "category": "foreign"
+  },
+  "american-express": {
+    "name": "American Express Banking Corporation",
+    "category": "foreign"
+  },
+  "anz-bank": {
+    "name": "Australia and New Zealand Banking Group Ltd.",
+    "category": "foreign"
+  },
+  "barclays-bank": {
+    "name": "Barclays Bank Plc.",
+    "category": "foreign"
+  },
+  "bank-of-america": {
+    "name": "Bank of America National Association",
+    "category": "foreign"
+  },
+  "bank-of-bahrain-and-kuwait": {
+    "name": "Bank of Bahrain and Kuwait B.S.C.",
+    "category": "foreign"
+  },
+  "bank-of-ceylon": {
+    "name": "Bank of Ceylon",
+    "category": "foreign"
+  },
+  "bank-of-china": {
+    "name": "Bank of China Limited",
+    "category": "foreign"
+  },
+  "bank-of-nova-scotia": {
+    "name": "Bank of Nova Scotia",
+    "category": "foreign"
+  },
+  "bnp-paribas": {
+    "name": "BNP Paribas",
+    "category": "foreign"
+  },
+  "citibank": {
+    "name": "Citibank N.A.",
+    "category": "foreign"
+  },
+  "rabobank": {
+    "name": "Cooperatieve Rabobank U.A.",
+    "category": "foreign"
+  },
+  "credit-agricole": {
+    "name": "Credit Agricole Corporate and Investment Bank",
+    "category": "foreign"
+  },
+  "ctbc-bank": {
+    "name": "CTBC Bank Co., Ltd.",
+    "category": "foreign"
+  },
+  "deutsche-bank": {
+    "name": "Deutsche Bank A.G.",
+    "category": "foreign"
+  },
+  "doha-bank": {
+    "name": "Doha Bank Q.P.S.C",
+    "category": "foreign"
+  },
+  "emirates-nbd": {
+    "name": "Emirates NBD Bank P.J.S.C",
+    "category": "foreign"
+  },
+  "first-abu-dhabi-bank": {
+    "name": "First Abu Dhabi Bank PJSC",
+    "category": "foreign"
+  },
+  "firstrand-bank": {
+    "name": "FirstRand Bank Limited",
+    "category": "foreign"
+  },
+  "hsbc": {
+    "name": "Hong Kong and Shanghai Banking Corporation (HSBC)",
+    "category": "foreign"
+  },
+  "icbc": {
+    "name": "Industrial and Commercial Bank of China",
+    "category": "foreign"
+  },
+  "industrial-bank-of-korea": {
+    "name": "Industrial Bank of Korea",
+    "category": "foreign"
+  },
+  "jp-morgan": {
+    "name": "J.P. Morgan Chase Bank N.A.",
+    "category": "foreign"
+  },
+  "vtb-bank": {
+    "name": "JSC VTB Bank",
+    "category": "foreign"
+  },
+  "keb-hana-bank": {
+    "name": "KEB Hana Bank",
+    "category": "foreign"
+  },
+  "kookmin-bank": {
+    "name": "Kookmin Bank",
+    "category": "foreign"
+  },
+  "mashreqbank": {
+    "name": "Mashreqbank P.S.C",
+    "category": "foreign"
+  },
+  "mizuho-bank": {
+    "name": "Mizuho Bank Ltd.",
+    "category": "foreign"
+  },
+  "mufg-bank": {
+    "name": "MUFG Bank, Ltd.",
+    "category": "foreign"
+  },
+  "natwest-markets": {
+    "name": "NatWest Markets Plc",
+    "category": "foreign"
+  },
+  "nonghyup-bank": {
+    "name": "NongHyup Bank",
+    "category": "foreign"
+  },
+  "maybank-indonesia": {
+    "name": "PT Bank Maybank Indonesia TBK",
+    "category": "foreign"
+  },
+  "qatar-national-bank": {
+    "name": "Qatar National Bank (Q.P.S.C.)",
+    "category": "foreign"
+  },
+  "sberbank": {
+    "name": "Sberbank",
+    "category": "foreign"
+  },
+  "shinhan-bank": {
+    "name": "Shinhan Bank",
+    "category": "foreign"
+  },
+  "societe-generale": {
+    "name": "Societe Generale",
+    "category": "foreign"
+  },
+  "sonali-bank": {
+    "name": "Sonali Bank PLC",
+    "category": "foreign"
+  },
+  "standard-chartered": {
+    "name": "Standard Chartered Bank",
+    "category": "foreign"
+  },
+  "sumitomo-mitsui-banking": {
+    "name": "Sumitomo Mitsui Banking Corporation",
+    "category": "foreign"
+  },
+  "uob": {
+    "name": "United Overseas Bank Limited",
+    "category": "foreign"
+  },
+  "ubs": {
+    "name": "UBS AG",
+    "category": "foreign"
+  },
+  "woori-bank": {
+    "name": "Woori Bank",
+    "category": "foreign"
+  },
+  "dbs-bank-india": {
+    "name": "DBS Bank India Limited",
+    "category": "foreign"
+  },
+  "sbm-bank-india": {
+    "name": "SBM Bank (India) Limited",
+    "category": "foreign"
+  }
+}

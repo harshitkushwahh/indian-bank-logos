@@ -1,0 +1,578 @@
+[
+  {
+    "slug": "ab-bank",
+    "name": "AB Bank PLC",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "airtel-payments-bank",
+    "name": "Airtel Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "american-express",
+    "name": "American Express Banking Corporation",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "anz-bank",
+    "name": "Australia and New Zealand Banking Group Ltd.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "au-small-finance-bank",
+    "name": "Au Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "axis-bank",
+    "name": "Axis Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bandhan-bank",
+    "name": "Bandhan Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-america",
+    "name": "Bank of America National Association",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-bahrain-and-kuwait",
+    "name": "Bank of Bahrain and Kuwait B.S.C.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-baroda",
+    "name": "Bank of Baroda",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-ceylon",
+    "name": "Bank of Ceylon",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-china",
+    "name": "Bank of China Limited",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-india",
+    "name": "Bank of India",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-maharashtra",
+    "name": "Bank of Maharashtra",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bank-of-nova-scotia",
+    "name": "Bank of Nova Scotia",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "barclays-bank",
+    "name": "Barclays Bank Plc.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "bnp-paribas",
+    "name": "BNP Paribas",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "canara-bank",
+    "name": "Canara Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "capital-small-finance-bank",
+    "name": "Capital Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "central-bank-of-india",
+    "name": "Central Bank of India",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "citibank",
+    "name": "Citibank N.A.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "city-union-bank",
+    "name": "City Union Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "coastal-local-area-bank",
+    "name": "Coastal Local Area Bank Ltd.",
+    "category": "lab",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "credit-agricole",
+    "name": "Credit Agricole Corporate and Investment Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "csb-bank",
+    "name": "CSB Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "ctbc-bank",
+    "name": "CTBC Bank Co., Ltd.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "dbs-bank-india",
+    "name": "DBS Bank India Limited",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "dcb-bank",
+    "name": "DCB Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "deutsche-bank",
+    "name": "Deutsche Bank A.G.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "dhanlaxmi-bank",
+    "name": "Dhanlaxmi Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "doha-bank",
+    "name": "Doha Bank Q.P.S.C",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "emirates-nbd",
+    "name": "Emirates NBD Bank P.J.S.C",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "equitas-small-finance-bank",
+    "name": "Equitas Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "esaf-small-finance-bank",
+    "name": "ESAF Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "federal-bank",
+    "name": "Federal Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "fino-payments-bank",
+    "name": "Fino Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "first-abu-dhabi-bank",
+    "name": "First Abu Dhabi Bank PJSC",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "firstrand-bank",
+    "name": "FirstRand Bank Limited",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "hdfc-bank",
+    "name": "HDFC Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "hsbc",
+    "name": "Hong Kong and Shanghai Banking Corporation (HSBC)",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "icbc",
+    "name": "Industrial and Commercial Bank of China",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "icici-bank",
+    "name": "ICICI Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "idbi-bank",
+    "name": "IDBI Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "idfc-first-bank",
+    "name": "IDFC FIRST Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "india-post-payments-bank",
+    "name": "India Post Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "indian-bank",
+    "name": "Indian Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "indian-overseas-bank",
+    "name": "Indian Overseas Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "indusind-bank",
+    "name": "IndusInd Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "industrial-bank-of-korea",
+    "name": "Industrial Bank of Korea",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "jammu-and-kashmir-bank",
+    "name": "Jammu & Kashmir Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "jana-small-finance-bank",
+    "name": "Jana Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "jio-payments-bank",
+    "name": "Jio Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "jp-morgan",
+    "name": "J.P. Morgan Chase Bank N.A.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "karnataka-bank",
+    "name": "Karnataka Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "karur-vysya-bank",
+    "name": "Karur Vysya Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "keb-hana-bank",
+    "name": "KEB Hana Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "kookmin-bank",
+    "name": "Kookmin Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "kotak-mahindra-bank",
+    "name": "Kotak Mahindra Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "krishna-bhima-samruddhi-lab",
+    "name": "Krishna Bhima Samruddhi LAB Limited",
+    "category": "lab",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "mashreqbank",
+    "name": "Mashreqbank P.S.C",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "maybank-indonesia",
+    "name": "PT Bank Maybank Indonesia TBK",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "mizuho-bank",
+    "name": "Mizuho Bank Ltd.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "mufg-bank",
+    "name": "MUFG Bank, Ltd.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "nainital-bank",
+    "name": "Nainital Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "natwest-markets",
+    "name": "NatWest Markets Plc",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "nonghyup-bank",
+    "name": "NongHyup Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "nsdl-payments-bank",
+    "name": "NSDL Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "paytm-payments-bank",
+    "name": "Paytm Payments Bank Limited",
+    "category": "payments",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "punjab-and-sind-bank",
+    "name": "Punjab & Sind Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "punjab-national-bank",
+    "name": "Punjab National Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "qatar-national-bank",
+    "name": "Qatar National Bank (Q.P.S.C.)",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "rabobank",
+    "name": "Cooperatieve Rabobank U.A.",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "rbl-bank",
+    "name": "RBL Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "sberbank",
+    "name": "Sberbank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "sbm-bank-india",
+    "name": "SBM Bank (India) Limited",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "shinhan-bank",
+    "name": "Shinhan Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "shivalik-small-finance-bank",
+    "name": "Shivalik Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "slice-small-finance-bank",
+    "name": "slice Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "societe-generale",
+    "name": "Societe Generale",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "sonali-bank",
+    "name": "Sonali Bank PLC",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "south-indian-bank",
+    "name": "South Indian Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "standard-chartered",
+    "name": "Standard Chartered Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "state-bank-of-india",
+    "name": "State Bank of India",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "sumitomo-mitsui-banking",
+    "name": "Sumitomo Mitsui Banking Corporation",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "suryoday-small-finance-bank",
+    "name": "Suryoday Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "tamilnad-mercantile-bank",
+    "name": "Tamilnad Mercantile Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "ubs",
+    "name": "UBS AG",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "uco-bank",
+    "name": "UCO Bank",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "ujjivan-small-finance-bank",
+    "name": "Ujjivan Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "union-bank-of-india",
+    "name": "Union Bank of India",
+    "category": "nationalised",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "unity-small-finance-bank",
+    "name": "Unity Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "uob",
+    "name": "United Overseas Bank Limited",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "utkarsh-small-finance-bank",
+    "name": "Utkarsh Small Finance Bank Limited",
+    "category": "sfb",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "vtb-bank",
+    "name": "JSC VTB Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "woori-bank",
+    "name": "Woori Bank",
+    "category": "foreign",
+    "hasHorizontal": true
+  },
+  {
+    "slug": "yes-bank",
+    "name": "YES Bank Limited",
+    "category": "private",
+    "hasHorizontal": true
+  }
+]

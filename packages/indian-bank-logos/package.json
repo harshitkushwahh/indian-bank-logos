@@ -1,0 +1,58 @@
+{
+  "name": "indian-bank-logos",
+  "version": "1.0.0",
+  "description": "Indian RBI scheduled bank logos — CDN URLs, search, and category helpers for fintech UIs",
+  "license": "MIT",
+  "author": "harshitkushwahh (https://github.com/harshitkushwahh)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshitkushwahh/indian-bank-logos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harshitkushwahh/indian-bank-logos/issues"
+  },
+  "homepage": "https://github.com/harshitkushwahh/indian-bank-logos#readme",
+  "keywords": [
+    "india",
+    "bank",
+    "logos",
+    "rbi",
+    "fintech",
+    "upi",
+    "ifsc",
+    "banking",
+    "cdn"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "data/banks.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

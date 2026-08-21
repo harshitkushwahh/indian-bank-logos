@@ -1,0 +1,19 @@
+{
+  "name": "indian-bank-logos-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "author": "harshitkushwahh (https://github.com/harshitkushwahh)",
+  "description": "Indian bank logos CDN + API + npm package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshitkushwahh/indian-bank-logos.git"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-manifest.js",
+    "build:package": "npm run build --workspace=indian-bank-logos",
+    "prepare": "node scripts/generate-manifest.js"
+  },
+  "workspaces": [
+    "packages/indian-bank-logos"
+  ]
+}
